@@ -1,0 +1,17 @@
+name: simple_text_env
+description: Text processing real-world environment
+version: 1.0
+
+observation:
+  type: Observation
+
+action:
+  type: Action
+
+reward:
+  type: Reward
+
+tasks:
+  - easy
+  - medium
+  - hard
